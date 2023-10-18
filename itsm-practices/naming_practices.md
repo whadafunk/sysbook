@@ -24,7 +24,7 @@
     - checkpoint - *ck*
     - microsoft - *ms*
 
-- **layer**
+- **layer/function**
     - access - *acc*
     - core - *cor*
     - distribution - *dst*
@@ -69,3 +69,57 @@
 - dhcp - ip
 - dc - dc
 - mail - mx
+
+
+
+### Naming conventions and encodings for Networks:
+
+
+#### Network Types:
+
+
+- **LAN** - internal network (users or services)
+- **DMZ** - services exposed to internet
+- **USR** - internal users network
+- **SRV** - internal services network
+- **MGMT** - internal management network
+- **VPN** - remote vpn network
+- **TUN** - vpn site remote network
+- **WAN** - generic remote network (IPSec, IPVPN, PPP, etc)
+- **XCN** - interconnect
+- **WFI** - wifi network
+- **iNET** - internet public ip subnet
+- **OOB** - generic out of band network (ilo, management, etc)
+- **ILO** - ilo network
+
+Network naming can have the following structure:
+
+**L**ocation-**T**ype-**O**wner-**N**umber
+
+#### Network naming examples:
+
+
+- F30-SRV-1
+- NX-USR-Admin
+- NX-USR-Guest
+- NX-USR-WiFi
+- F30-SRV-BitHat
+- F30-SRV-Sandbox
+- F30-DMZ-Asee
+- F30-MGMT-VMWare
+- F30-OOB-VMotion
+- F30-OOB-Backup
+- F30-XCN-FW1.FW2
+
+
+#### Network color convention proposal:
+
+
+- **USR** - White
+- **SRV** - Green
+- **DMZ** - Orange
+- **iNET** - Red
+- **OOB** / **MGMT** - Blue
+- **VPN** - Violet
+- **TUN** / **WAN** - Yellow
+- **XCN** - Brown

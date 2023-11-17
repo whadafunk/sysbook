@@ -91,10 +91,19 @@
 - **iNET** - internet public ip subnet
 - **OOB** - generic out of band network (ilo, management, etc)
 - **ILO** - ilo network
+- **NOD** - a single /32 node
 
 Network naming can have the following structure:
 
-**L**ocation-**T**ype-**O**wner-**N**umber
+**L**ocation-**T**ype-**Sub**type-**N**umber
+
+The **Sub**type can be anything that adds more clarity to the network purpose
+
+- User Type
+- Lab/Production/Staging
+- Virtual
+- OOB Types: backup, storage, management, vmotion, etc
+
 
 #### Network naming examples:
 

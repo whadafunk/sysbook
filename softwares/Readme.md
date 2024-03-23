@@ -21,5 +21,5 @@ while others would be solutions that I have implemented and experimented.
 - ElasticSearch
 - Logstash
 
-### What I usually do is to have bookmarks to these product pages, and my experience with the product.
+### What I usually do is to have bookmarks to these product pages, and document my experience with the product.
 

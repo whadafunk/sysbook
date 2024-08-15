@@ -1,7 +1,6 @@
 # General notes on Alpine Linux
 
 
-
 ### Repositories
 
 

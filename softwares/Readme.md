@@ -1,6 +1,9 @@
-# rware
-## reviews and tips for server software
-![Cover Photo](./cover_photo.jpg)
+# Open Source Software
+
+- Listing with powerfull open-source software
+- Reviews and tips for open-source software
+- Use Cases
+
 
 I will be reviewing here apps and services that I find useful and worthy of my time. 
 I am targeting mostly opensource stuff, and mostly on-prem stuff solutions 

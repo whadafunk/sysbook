@@ -21,6 +21,17 @@ There are a couple of branches that you will find in the repository configuratio
 - the development tree
 - has a support cycle of 6 months
 
+### Upgrading Alpine
+
+
+setup-apkrepos
+http://dl-3.alpinelinux.org/alpine/latest-stable/main
+http://dl-3.alpinelinux.org/alpine/latest-stable/community
+# apk add --upgrade apk-tools
+# apk upgrade --available	
+sync
+reboot
+
 ### Packages
 
 Alpine, being a bare-bones distribution does not come with many tools installed  
@@ -54,6 +65,7 @@ The following is a list with a couple of these packages that are usualy needed
 - **dig** , **bind9-utils**, **nslookup**
 - **openssh**
 - **figlet**
+- **minicom**
 
 #### *Networking*
 
@@ -107,6 +119,11 @@ Docker can be installed straight from the alpine repository
 Alpine installs the initialization scripts for its services under */etc/init.d*, but these  
 services are not configured to start automatically.  
 We can manage these services with *rc-update*
+Usually each package that represent a service has a coresponding -rc package that contains the initialization scripts
+and most of the times the initialization scripts are installed automatically as a dependency when you install the base package.
+
+Installing a rc script does not add it as a service and you need to use rc-update add service name.
+For the service name you should use the exact file name as it appears under /etc/init.d
 
 
 

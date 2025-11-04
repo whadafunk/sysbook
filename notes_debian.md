@@ -1,6 +1,20 @@
 # DESKTOP INSTALLATION JOURNAL FOR DEBIAN 10 (BUSTER)
 
+
 ## Desktop Environment: Gnome
+
+
+### VM Tools
+
+Depending on what hypervisor you run you might need to install:
+
+	- vm-tools
+	- vbox-tools
+	- qemu-guest-agent
+
+If your VM is configured with a Spice display in UTM, you should install 
+	- spice-vdagent
+
 
 ### Modify swappiness
 

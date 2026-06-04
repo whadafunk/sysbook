@@ -110,11 +110,6 @@
 * ####  CoreImpact
 	*Very expensive exploitation platform*
 
-* ####  social engineering toolkit | SET
-
-	*It is an open-source Python-driven tool aimed at penetration testing 
-	around Social-Engineering.*
-
 * ####  maltego
 
 	*OSINT popular tool*
@@ -176,10 +171,6 @@
 
 	*local proxy, vulnerability scanner, similar to burp*
 	
-* ####	webscarab
-
-* ####	paros proxy
-
 * ####	nipper
 	*Nipper (short for Network Infrastructure Parser, previously known as CiscoParse) audits the security of network devices such as switches, routers, and firewalls.*
 

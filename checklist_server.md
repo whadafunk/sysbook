@@ -36,8 +36,8 @@
 	> produce a list of installed packages and save it unde */var/logs/admin*  
 	> apt list --installed > */var/log/admin/pkg-list_**date**  
 - remove unwanted packages
-- review the list of services with *systemctl list-units --type=server*
-- review open ports with *netstsat -an*
+- review the list of services with *systemctl list-units --type=service*
+- review open ports with *ss -tlnp*
 - check for firewall services (iptables/nftables/firewalld/ufw, etc)
 	- systemctl list-units | grep firewall
 	- systemctl list-units | grep fw
@@ -95,7 +95,7 @@
 
 ## Mail and notifications
 
-- SSMTP or MSMTP
+- MSMTP (ssmtp is deprecated and unmaintained)
 
 
 ## Authentication packages
